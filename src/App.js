@@ -254,15 +254,15 @@ function App() {
       </section>
 
       {/* Service Areas Section */}
-      <section id="areas" className="py-20 bg-gradient-to-br from-primary-50 to-primary-100">
+      <section id="areas" className="py-16 md:py-20 bg-gradient-to-br from-primary-50 to-primary-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Service Areas</h2>
-          <div className="flex items-center justify-center mb-8">
-            <FaMapMarkerAlt className="w-8 h-8 text-primary-600 mr-3" />
-            <p className="text-2xl font-semibold text-gray-800">Essex • Middlesex • Norfolk • Suffolk Counties</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Service Areas</h2>
+          <div className="flex flex-col sm:flex-row items-center justify-center mb-6 md:mb-8">
+            <FaMapMarkerAlt className="w-8 h-8 text-primary-600 mb-3 sm:mb-0 sm:mr-3" />
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800">Essex • Middlesex • Norfolk • Suffolk Counties</p>
           </div>
-          <p className="text-xl text-gray-700 mb-4">Serving the Greater Boston Area</p>
-          <p className="text-lg text-gray-600 italic">
+          <p className="text-lg md:text-xl text-gray-700 mb-3 md:mb-4">Serving the Greater Boston Area</p>
+          <p className="text-base md:text-lg text-gray-600 italic max-w-2xl mx-auto">
             Please reach out if unsure - we may have the ability to serve you beyond this region!
           </p>
         </div>
