@@ -269,39 +269,39 @@ function App() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 bg-white">
+      <section id="testimonials" className="py-16 md:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
-            <p className="text-xl text-gray-600">Real feedback from satisfied customers</p>
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+            <p className="text-lg md:text-xl text-gray-600">Real feedback from satisfied customers</p>
           </div>
-          <div className="relative">
-            <div className="bg-gray-50 rounded-xl shadow-lg p-8 md:p-12">
-              <div className="flex justify-center mb-6">
+          <div className="relative px-8 sm:px-12 md:px-16">
+            <div className="bg-gray-50 rounded-xl shadow-lg p-6 sm:p-8 md:p-12">
+              <div className="flex justify-center mb-4 md:mb-6">
                 {[...Array(testimonials[currentTestimonial].rating)].map((_, i) => (
-                  <FaStar key={i} className="w-6 h-6 text-yellow-400" />
+                  <FaStar key={i} className="w-5 h-5 md:w-6 md:h-6 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-xl text-gray-700 mb-6 italic leading-relaxed text-center">
+              <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-4 md:mb-6 italic leading-relaxed text-center">
                 "{testimonials[currentTestimonial].text}"
               </p>
-              <p className="text-lg font-semibold text-gray-900 text-center">
+              <p className="text-base sm:text-lg font-semibold text-gray-900 text-center">
                 - {testimonials[currentTestimonial].name}
               </p>
             </div>
             <button
               onClick={prevTestimonial}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 bg-primary-600 hover:bg-primary-700 text-white p-3 rounded-full transition"
+              className="absolute left-0 top-1/2 -translate-y-1/2 bg-primary-600 hover:bg-primary-700 text-white p-2 sm:p-3 rounded-full transition"
               aria-label="Previous testimonial"
             >
-              <FaChevronLeft className="w-5 h-5" />
+              <FaChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
             <button
               onClick={nextTestimonial}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 bg-primary-600 hover:bg-primary-700 text-white p-3 rounded-full transition"
+              className="absolute right-0 top-1/2 -translate-y-1/2 bg-primary-600 hover:bg-primary-700 text-white p-2 sm:p-3 rounded-full transition"
               aria-label="Next testimonial"
             >
-              <FaChevronRight className="w-5 h-5" />
+              <FaChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
           </div>
         </div>
