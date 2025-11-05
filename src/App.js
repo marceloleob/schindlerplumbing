@@ -147,9 +147,9 @@ function App() {
               />
               <div className="absolute inset-0 z-20 flex items-center justify-center">
                 <div className="text-center text-white px-4 max-w-4xl">
-                  <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">{slide.title}</h1>
-                  <p className="text-xl md:text-2xl mb-8 animate-fade-in-delay">{slide.subtitle}</p>
-                  <a href="#contact" className="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition inline-block animate-fade-in-delay-2">
+                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 animate-fade-in leading-tight">{slide.title}</h1>
+                  <p className="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 animate-fade-in-delay">{slide.subtitle}</p>
+                  <a href="#contact" className="bg-white text-primary-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg hover:bg-gray-100 transition inline-block animate-fade-in-delay-2">
                     Schedule a Consultation
                   </a>
                 </div>
