@@ -80,7 +80,6 @@ yarn build
 ## Credits
 
 - Content sourced from: https://www.schindlerplumbing.com/
-- Design inspiration from: https://amerplumb.com/
 - Images from Schindler Plumbing Squarespace CDN
 
 ## License
