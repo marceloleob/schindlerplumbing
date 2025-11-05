@@ -212,14 +212,14 @@ function App() {
       </section>
 
       {/* Stats/Experience Section */}
-      <section className="py-20 bg-primary-600 text-white">
+      <section className="py-16 md:py-20 bg-primary-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6 md:gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <FaCheckCircle className="w-8 h-8 mx-auto mb-3" />
-                <h3 className="text-lg font-bold mb-1">{stat.label}</h3>
-                <p className="text-sm text-primary-100">{stat.sublabel}</p>
+                <FaCheckCircle className="w-6 h-6 md:w-8 md:h-8 mx-auto mb-2 md:mb-3" />
+                <h3 className="text-sm md:text-lg font-bold mb-1">{stat.label}</h3>
+                <p className="text-xs md:text-sm text-primary-100">{stat.sublabel}</p>
               </div>
             ))}
           </div>
