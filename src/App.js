@@ -112,7 +112,7 @@ function App() {
               <img 
                 src="https://images.squarespace-cdn.com/content/v1/64511737c534fa5ced8ebf32/2672bb42-3964-4e22-9e99-4ce3958e6ed2/Logo.png" 
                 alt="Adam Schindler Plumbing & Heating Logo" 
-                className="h-16 w-auto"
+                className="h-12 sm:h-16 w-auto"
               />
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -122,6 +122,9 @@ function App() {
               <a href="#testimonials" className="text-gray-700 hover:text-primary-600 font-medium transition">Testimonials</a>
               <a href="#contact" className="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition font-semibold">Contact Us</a>
             </div>
+            <a href="#contact" className="md:hidden bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition font-semibold text-sm">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
