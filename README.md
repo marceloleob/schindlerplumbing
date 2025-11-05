@@ -82,6 +82,8 @@ yarn build
 - Content sourced from: https://www.schindlerplumbing.com/
 - Images from Schindler Plumbing Squarespace CDN
 
+Test: https://schindler-clone.preview.emergentagent.com/
+
 ## License
 
 © 2024 Adam Schindler Plumbing & Heating. All rights reserved.
