@@ -130,7 +130,7 @@ function App() {
       </nav>
 
       {/* Hero Section with Carousel */}
-      <section className="relative h-screen mt-20">
+      <section className="relative h-screen mt-20 min-h-[600px]">
         <div className="absolute inset-0 overflow-hidden">
           {heroSlides.map((slide, index) => (
             <div
